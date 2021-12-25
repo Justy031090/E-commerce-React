@@ -1,0 +1,26 @@
+.header {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-color: wheat;
+    height: 3rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.header span {
+    padding: 1.5rem;
+    margin: 2rem 1.5rem;
+}
+.header a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #525050;
+    border: 1px solid transparent;
+}
+.header a:hover {
+    transition: 300ms ease-in;
+    border-bottom: 1px solid #525050;
+}
+.fa-shopping-cart {
+    font-size: 1.5rem;
+}

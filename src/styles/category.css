@@ -1,0 +1,16 @@
+.main-category {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.main-category button {
+    color: aquamarine;
+    border: 1px solid lightblue;
+    margin: 0.5rem;
+    background-color: lightcoral;
+    cursor: pointer;
+}
